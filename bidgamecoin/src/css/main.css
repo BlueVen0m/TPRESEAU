@@ -1,0 +1,38 @@
+* {
+   box-sizing: border-box;
+}
+
+body {
+   background-color: gray;
+}
+
+.fff {
+   background-color: #fff;
+}
+
+ul li a{
+   color: #2b373a !important;
+   font-family: "Titillium Web", sans-serif;
+   font-size: 0.875em;
+   font-weight: 700;
+   text-transform: uppercase;
+   line-height: 30px;
+   border-right: 1px solid #ebebeb;
+   transition: all 0.35s ease-in-out;
+}
+
+.fix {
+   border-left: 1px solid #ebebeb;
+}
+
+.hovered ul li a:hover {
+   background-color: #00D7B3;
+   color: aliceblue !important;
+   transition: all 0.35s ease-in-out;
+}
+
+.p3 {
+   padding: 1rem 1.8rem !important;
+}
+
+
